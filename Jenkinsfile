@@ -3,7 +3,7 @@ agent any
 stages{
 stage("HelloWorld"){
 steps{
-echo "hello world"
+echo "hello world and committing through GIT"
 }
 }
 }
