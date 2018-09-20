@@ -4,6 +4,7 @@ stages{
 stage("HelloWorld"){
 steps{
 echo "hello world and committing through GIT"
+bat 'make check'
 }
 }
 }
